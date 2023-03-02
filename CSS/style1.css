@@ -64,7 +64,7 @@ button1 {
 
 
 .usda-main  {
-  background-image: url("/Images/USDA-JUMBO.png");
+  background-image: url("Images/USDA-JUMBO.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 50vh;
