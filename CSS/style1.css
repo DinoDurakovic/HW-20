@@ -93,7 +93,6 @@ button1 {
   flex-direction:row;
   justify-content:space-around;
   align-items: center;
-  margin:20px;
 }
 
 .card-title {
@@ -115,9 +114,27 @@ button1 {
 }
 
 .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: auto;
   border:none;
 
+}
+
+.card2 {
+  padding: 1%;
+  color: #30391A;
+  width: auto;
+  margin: 50px;
+  background: none;
+  border: none;
+}
+
+.card-header {
+  background-color: #fefefe;
+  border-bottom: 1px solid #30391A;
+  border-top: 1px solid #30391A;
 }
 
 .card-fluid {
@@ -129,11 +146,14 @@ button1 {
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.card-text {
+  font-size: 24px;
+}
 
 
 .container4 {
   padding: 50px;
-  margin: 0% 20% 0% 20% ;
+  margin: 0% 50px 0% 50px ;
   color: #fefefe;
   background: #30391A;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -148,8 +168,26 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .image-block {
-  margin: 50px;
+  margin:  50px 50px 0 50px;
 }
+
+.sitemap {
+  margin: 0 50px 50px 50px;
+}
+
+
+.img2 {
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  height: 100%;
+  box-sizing: border-box;
+  max-width: 70%;
+  max-height: 100%;
+  width: 100%;
+}
+
+
 
 @media screen and (max-width: 1100px) {
   .container2 {
@@ -174,6 +212,13 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 }
 
+@media screen and (max-width:1100px) {
+  .images {
+   display: flex;
+   flex-direction: column;
+    
+  }
+}
 
 .Usdalogo {
   display: flex;
